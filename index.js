@@ -1,9 +1,9 @@
-import 'babel-polyfill';
+import 'babel-polyfill'; // Garante que o Parcel entenderá o código
 import React from "react"
 import ReactDOM from "react-dom"
 import App from "./app"
 
-let root = document.getElementById('root')
+const root = document.getElementById('root')
 
 ReactDOM.render(<App />, root)
 
